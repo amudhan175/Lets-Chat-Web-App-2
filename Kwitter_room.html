@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Letschat web app</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+        <link rel="stylesheet" href="style.css">
+        <script src="Kwitter_room.js"></script>
+    </head>
+    <body id="kwitter_room">
+        <button id="logout_button" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger"> Logout</button>
+
+        <video id="lets_chat_video" src="Lets CHat.mp4"></video>
+        <h2 id="username_label"></h2>
+        <h3 id="room_no_label">Room no:</h3>
+        <input id="room_input" class="form-control" type="text" placeholder="Enter Your Room Name">
+        <br>
+        <button id="add_room_button" onclick="addroom()">Add Room</button>
+        <br>
+        <h2 class="online_rooms_label">#Online Rooms</h2>
+        <div id="Rooms_output"></div>
+    </body>
+</html>
